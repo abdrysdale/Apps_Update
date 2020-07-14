@@ -9,7 +9,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No colour
 
 # Changes to Apps folder
-cd /home/al/Apps
+cd ~/Apps
 
 # Iterates over folders
 for i in $(ls -d */);
