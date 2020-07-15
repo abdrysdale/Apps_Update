@@ -2,7 +2,7 @@
 
 # Checks for updates for all dir in the Apps/ dir.
 
-backup_file='~/packages.txt'
+backup_file="${HOME}/packages.txt"
 
 # Includes colour output
 BLUE='\033[0;34m'
@@ -29,4 +29,4 @@ do
 	cd ..
 done
 
-pacman -Q  >> ${backup_file}
+pacman -Qq  >> ${backup_file}
